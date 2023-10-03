@@ -13,10 +13,12 @@ public class armstrong {
     	 sum=sum+(rem*rem*rem);
     	 no=no/10;
      }
+     //is an armstrong number
      if(copy==sum)
      {
     	 System.out.println(copy+ " is an armstrong no");
      }
+     //is not an armstrong number
      else
      {
     	 System.out.println(copy+ " is not an armstrong no");
