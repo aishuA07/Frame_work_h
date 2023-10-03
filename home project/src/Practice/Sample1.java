@@ -7,7 +7,9 @@ public class Sample1 {
 	{
 		System.out.println("hi");
 	}
+	
 	public static void main(String[] args) {
+		//calling disp method
 	    disp();	
 	    System.out.println(x);
 	}
